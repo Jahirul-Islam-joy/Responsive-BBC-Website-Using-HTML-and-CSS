@@ -1,0 +1,533 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: monospace;
+}
+
+
+
+.navbar{
+    background-color: #000;
+    height: 100hv;
+    padding-left: 77px;
+    padding-right: 77px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+}
+
+.logo{
+    width: 84px;
+    height: 28px;
+    margin: 8px 0 ; 
+    margin-right: 16px;
+}
+
+.menu-item{
+    border-left: 1px solid grey;
+    height: 40px;
+    
+}
+.signin{
+    border-left: 1px solid grey;
+    height: 40px;
+}
+.menu-item a{
+    text-decoration: none;
+    line-height: 40px;
+    margin: 0 20px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700px;
+
+}
+.signin img{
+    margin-left: 10px;
+    width: 25px;
+    float: left;
+    position: absolute;
+    top: 7px;
+    margin-right: 5px;
+    
+}
+.signin a{
+    text-decoration: none;
+    line-height: 40px;
+    color: white;
+    padding-left: 45px;
+    padding-right: 44px;
+}
+.menu-item input{
+    margin-top: 6px;
+    margin-left: 10px;
+    padding: 3px;
+    font-weight: 700;
+}
+
+.menu-item img{
+    width: 34px;
+    position: absolute;
+    margin-top: 7px;
+    margin-left: -0.9px;
+
+}
+
+
+.News:hover{
+    border-bottom: 4px solid rgb(226, 7, 7);
+}
+.signin:hover{
+    border-bottom: 4px solid #3498db;
+}
+.sport:hover{
+    border-bottom: 4px solid yellow;
+}
+.reel:hover{
+    border-bottom: 4px solid #0068FF;
+}
+.worklife:hover{
+    border-bottom: 4px solid #0052A1;
+}
+.travel:hover{
+    border-bottom: 4px solid #589E50;
+}
+.future:hover{
+    border-bottom: 4px solid #002856;
+}
+.culture:hover{
+    border-bottom: 4px solid #482878;
+}
+.more:hover{
+    border-bottom: 4px solid #fff;
+}
+
+/*Welcome speech */
+.welcome{
+    padding: 30px 77px 12px 77px;
+    background-color: white;
+    display: flex;
+
+}
+.welcome-speech {
+    flex-basis: 50%;
+   
+}
+.welcome-speech p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #4a4a4a;
+}
+
+.date {
+    flex-basis: 50%;
+    
+}
+.date p{
+    text-align: right;
+    color: #8c8c8c;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*news body */
+
+.hot-news{
+    padding: 0px 45px 30px 77px;
+    display: flex;
+    align-items: center;
+}
+
+.left-hot-news{
+    flex-basis: 50%;
+    background-image:url("../assets/img1.jpg") ;
+    height: 350px;
+    margin-right: 6px;
+}
+.left-hot-news h2{
+    padding: 190px 10px 10px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: white;
+}
+.left-hot-news .chaina{
+    color:  #d3d2d2;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 0 10px 10px 10px;
+}
+
+.left-hot-news .ch{
+    margin-left: 10px;
+    padding-left: 10px;
+    color:  #d3d2d2;
+    font-size: 14px;
+    font-weight: 700;
+    border-left: 3px solid crimson;
+    
+
+}
+
+
+
+/*right hot news */
+.right-hot-news{
+    flex-basis: 50%;
+    display: flex;
+    margin-left: 6px;
+    
+}
+.right-left-hot-news{
+    flex-basis: 50%;
+    margin-right: 6px;
+    
+    
+}
+.right-left-hot-news1{
+    background-image:url("../assets/img2.jpg") ;
+    height: 170px;
+    margin-bottom: 10px;
+}
+.right-left-hot-news1 h3{
+    padding: 95px 10px 5px 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.right-left-hot-news1 .uk{
+    margin-left: 10px;
+    padding-left: 10px;
+    color:  white;
+    font-size: 14px;
+    font-weight: 700;
+    border-left: 3px solid red;
+}
+
+.right-left-hot-news2{
+    background-image:url("../assets/img4.jpg") ;
+    height: 170px;
+    
+}
+.right-left-hot-news2 h3{
+    padding: 95px 10px 5px 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+.right-left-hot-news2 .ep{
+    margin-left: 10px;
+    padding-left: 10px;
+    color:  white;
+    font-size: 14px;
+    font-weight: 700;
+    border-left: 3px solid yellow;
+}
+
+
+
+
+
+
+
+.right-right-hot-news{
+        flex-basis: 50%;
+        margin-left: 6px;
+        
+}
+.right-right-hot-news1{
+    background-image:url("../assets/img3.jpg") ;
+    height: 170px;
+    margin-bottom: 10px;
+    
+}
+.right-right-hot-news1 h3{
+    padding: 95px 10px 5px 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+.right-right-hot-news1 .europe{
+    margin-left: 10px;
+    padding-left: 10px;
+    color:  white;
+    font-size: 14px;
+    font-weight: 700;
+    border-left: 3px solid crimson;
+}
+
+.right-right-hot-news2{
+    background-image:url("../assets/img5.jpg") ;
+    height: 170px;
+    
+}
+.right-right-hot-news2 h3{
+    padding: 95px 10px 5px 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+.right-right-hot-news2 .culture{
+    margin-left: 10px;
+    padding-left: 10px;
+    color:  white;
+    font-size: 14px;
+    font-weight: 700;
+    border-left: 3px solid BLUE;
+}
+
+
+/*News*/
+
+.news-title{
+   padding: 20px 77px 20px 77px; 
+}
+.news-title .Ne{
+    
+    padding-left: 10px;
+    color:  #4a4a4a;
+    font-size: 22px;
+    font-weight: 700;
+    border-left: 3px solid BLUE;
+}
+
+.news-title .Ne:hover{
+    color: black;
+}
+
+
+.news{
+    
+    padding: 0px 80px 30px 77px;
+    display: flex;
+    
+
+}
+.news-col1{
+    flex-basis: 33.33%;
+    margin-right: 5px;
+    
+}
+.news-col1-title{
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 10px;
+    
+}
+
+.news-col1 .africa{
+    border-left: 2px solid red;
+    padding-left: 10px;
+    font-weight: 700;
+}
+
+
+.news-col1 img{
+    width: 410px;
+    padding-bottom: 8px;
+}
+.news-col2 img{
+    width: 410px;
+    padding-bottom: 8px;
+}
+.news-col3 img{
+    width: 410px;
+    padding-bottom: 8px;
+}
+
+.news-col2{
+    margin-left: 5px;
+    margin-right: 5px;
+    flex-basis: 33.33%;
+      
+}
+
+.news-col2-title{
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 10px;
+    
+}
+.news-col2 .uscanada{
+    border-left: 2px solid red;
+    padding-left: 10px;
+    font-weight: 700;
+}
+
+.news-col3{
+    flex-basis: 33.33%;
+    margin-left: 5px;
+    
+    
+}
+.news-col3-title{
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 10px;
+    
+}
+
+.news-col3 .Eurpoe{
+    border-left: 2px solid red;
+    padding-left: 10px;
+    font-weight: 700;
+}
+
+
+
+
+/*Footer*/
+
+.footer{
+    
+    height: 100hv;
+    padding-left: 77px;
+    padding-right: 45px !important;
+    background-color:#4c4c4c ;
+}
+
+.footer h3{
+    padding: 20px 0;
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid grey;
+}
+
+.footer-col{
+    width: 210px;
+    border-right: 1px solid grey;
+    
+}
+
+.footer-col a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    margin-left: 20px;
+}
+
+.footer-col1{
+    width: 210px;
+    border-right: 1px solid grey;
+    
+}
+.footer-col1 a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    
+}
+.footer-col1 a:hover{
+    border-bottom: 1px solid white;
+}
+.footer-col a:hover{
+    border-bottom: 1px solid white;
+}
+
+
+.link a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 400px;
+    margin-right: 13px;
+    line-height: 2;
+    
+}
+
+.link a:hover{
+    border-bottom: 1px solid white;
+}
+
+.copyright {
+    color: white;
+    padding: 20px 0;
+
+
+}
+
+.copyright p{
+    font-size: 14px;
+    font-weight: 400px;
+}
+.copyright a{
+    text-decoration: none;
+    color: white;
+}
+
+.copyright a:hover{
+    border-bottom: 1px solid white;
+}
+
+.hero p{
+    color: red;
+}
+
+
+
+
+/* responsive part */
+@media screen and (max-width:960px){
+    .navbar{
+        width: 100%;
+        padding-left:0px;
+        padding-right: 0px;
+    }
+
+    .welcome{
+        flex-direction: column;
+        padding:10px 30px;
+
+    }
+    .date p{
+        text-align: left;
+    }
+     
+    .hot-news{
+        flex-direction:column;
+        padding: 10px;
+        margin: 10px 10px;
+    }
+
+    .left-hot-news{
+        margin:20px 10px ;
+    }
+    .news-title{
+        padding: 10px ;
+        margin: 10px;
+    }
+    .news{
+        flex-direction: column;
+        padding: 5px;
+        margin: 5px;
+    }
+
+    .footer{
+        
+        
+        padding-left: 30px;
+        padding-right: 20px;
+    }
+}
+
+
+
+
+
